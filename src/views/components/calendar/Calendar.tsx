@@ -8,6 +8,7 @@ import CalendarGrid from '@views/components/calendar/CalendarGrid';
 import CalendarHeader from '@views/components/calendar/CalendarHeader/CalendarHeader';
 import { CalendarSchedules } from '@views/components/calendar/CalendarSchedules';
 import ResourceLinks from '@views/components/calendar/ResourceLinks';
+import { ExperimentsSection } from '@views/components/calendar/ExperimentsSection';
 import Divider from '@views/components/common/Divider';
 import CourseCatalogInjectedPopup from '@views/components/injected/CourseCatalogInjectedPopup/CourseCatalogInjectedPopup';
 import { CalendarContext } from '@views/contexts/CalendarContext';
@@ -97,6 +98,8 @@ export default function Calendar(): JSX.Element {
                             <CalendarSchedules />
                             <Divider orientation='horizontal' size='100%' />
                             <ResourceLinks />
+                            <Divider orientation='horizontal' size='100%' />
+                            <ExperimentsSection />
                             <Divider orientation='horizontal' size='100%' />
                             {/* <TeamLinks /> */}
                             <a
