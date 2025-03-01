@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import Dialog from '../common/Dialog';
-import Text from '../common/Text/Text';
 import { Flask } from '@phosphor-icons/react';
-import Divider from '../common/Divider';
+import React, { useState } from 'react';
+
 import { Button } from '../common/Button';
+import Dialog from '../common/Dialog';
+import Divider from '../common/Divider';
+import Text from '../common/Text/Text';
 import AIResponse from './AIResponse';
 
 interface AIDialogProps {
@@ -16,7 +17,6 @@ interface AIDialogProps {
  */
 export default function AIDialog({ isOpen, onClose }: AIDialogProps): JSX.Element {
     const [showResponse, setShowResponse] = useState(false);
-    const [userQuery, setUserQuery] = useState('');
 
     const handleAskAI = () => {
         setShowResponse(true);
@@ -53,8 +53,8 @@ export default function AIDialog({ isOpen, onClose }: AIDialogProps): JSX.Elemen
                 className='max-w-[600px] p-6'
             >
                 <div className='flex flex-col gap-4' style={{ paddingTop: 'var(--spacing-spacing-6, 20px)' }}>
-                    <div className='flex flex-col justify-center items-end gap-spacing-3 self-stretch'>
-                        <div className='flex flex-col h-[166px] justify-center items-start gap-spacing-3 self-stretch'>
+                    <div className='flex flex-col items-end self-stretch justify-center gap-spacing-3'>
+                        <div className='h-[166px] flex flex-col items-start self-stretch justify-center gap-spacing-3'>
                             <textarea
                                 style={{
                                     borderRadius: 'var(--radius-radius1, 4px)',
@@ -66,12 +66,10 @@ export default function AIDialog({ isOpen, onClose }: AIDialogProps): JSX.Elemen
                                     fontSize: '14px',
                                 }}
                                 placeholder='How can I improve my schedule'
-                                value={userQuery}
-                                onChange={e => setUserQuery(e.target.value)}
                             />
                             <Text variant='small'>Ask Al can make mistakes. Check important info.</Text>
                         </div>
-                        <div className='flex justify-end items-start gap-4'>
+                        <div className='flex items-start justify-end gap-4'>
                             <Button variant='minimal' color='ut-black' size='regular' onClick={() => onClose()}>
                                 Cancel
                             </Button>
@@ -92,7 +90,7 @@ export default function AIDialog({ isOpen, onClose }: AIDialogProps): JSX.Elemen
                 </div>
             </Dialog>
 
-            <AIResponse isOpen={showResponse} onClose={handleCloseResponse} userQuery={userQuery} />
+            <AIResponse isOpen={showResponse} onClose={handleCloseResponse} />
         </>
     );
 }
