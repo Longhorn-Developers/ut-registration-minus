@@ -115,6 +115,9 @@ const splashText: string[] = [
     `It's ${new Date().toLocaleString('en-US', { month: 'long', day: 'numeric' })} and OU still sucks`,
     'As seen on TV!	',
     "Should you major in Compsci? well, here's a better question. do you wanna have a bad time?",
+    'They told me I suck at javascript, but I [object Object]',
+    'You have a notification from Canvas: "Assignment Graded: Exam 1"',
+    'lol, you thought you were gonna get into that class?',
 ];
 
 export default splashText;
