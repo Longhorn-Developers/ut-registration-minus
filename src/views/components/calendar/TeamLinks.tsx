@@ -14,6 +14,7 @@ interface LinkItem {
     url: string;
 }
 
+// TODO: Rebrand these links to UTRM.
 const links = [
     {
         text: 'Rate us on Chrome Web Store',
