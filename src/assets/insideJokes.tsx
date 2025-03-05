@@ -115,6 +115,9 @@ const splashText: string[] = [
     `It's ${new Date().toLocaleString('en-US', { month: 'long', day: 'numeric' })} and OU still sucks`,
     'As seen on TV!	',
     "Should you major in Compsci? well, here's a better question. do you wanna have a bad time?",
+    "I'm usually an indecisive person, but now I'm not so sure.",
+    "What is a programmer's favorite finger? Their pointer finger.",
+    "What is a cartographer's favorite data structure? A hashmap."
 ];
 
 export default splashText;
