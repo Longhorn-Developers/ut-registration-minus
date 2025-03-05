@@ -115,6 +115,9 @@ const splashText: string[] = [
     `It's ${new Date().toLocaleString('en-US', { month: 'long', day: 'numeric' })} and OU still sucks`,
     'As seen on TV!	',
     "Should you major in Compsci? well, here's a better question. do you wanna have a bad time?",
+    'No classes today. Looks like my brain is on airplane mode indefinitely',
+    'No class today? Looks like my brain just got an automatic update… for more sleep.',
+    'No school today! Time to be as productive as a potato.'
 ];
 
 export default splashText;
