@@ -12,7 +12,7 @@ export default function TableHead({ children }: PropsWithChildren): JSX.Element 
     useEffect(() => {
         const container = document.createElement('th');
         container.setAttribute('scope', 'col');
-        container.setAttribute('id', 'ut-registration-plus-table-head');
+        container.setAttribute('id', 'ut-registration-minus-table-head');
         const lastTableHeadCell = document.querySelector('table thead th:last-child');
         lastTableHeadCell!.after(container);
         setContainer(container);

@@ -8,7 +8,7 @@ import { createPortal } from 'react-dom';
  */
 export default function NewSearchLink() {
     const [container, setContainer] = useState<HTMLElement | null>(null);
-    const newContainerId = 'ut-registration-plus-new-search-link';
+    const newContainerId = 'ut-registration-minus-new-search-link';
 
     const searchLink = document.querySelector('#bottom_nav > p:nth-child(2)');
     const linkContent = {

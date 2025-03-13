@@ -10,14 +10,14 @@
 1. Clone the repository:
 
     ```
-    git clone https://github.com/Longhorn-Developers/UT-Registration-Plus.git
-    cd UT-Registration-Plus
+    git clone https://github.com/Longhorn-Developers/UT-Registration-Minus.git
+    cd UT-Registration-Minus
     ```
 
 2. Build the Docker image:
 
     ```
-    docker build -t ut-registration-plus .
+    docker build -t ut-registration-minus .
     ```
 
 ## Using Docker for Different Modes
@@ -29,13 +29,13 @@ The Docker setup supports three modes of operation: build, zip, and dev. You can
 This mode builds the extension and places the output in the `dist` folder.
 
 ```
-docker run -it --rm -v $(pwd)/dist:/extension/dist ut-registration-plus build
+docker run -it --rm -v $(pwd)/dist:/extension/dist ut-registration-minus build
 ```
 
 or
 
 ```
-docker run -it --rm -v $(pwd)/dist:/extension/dist -e BUILD_MODE=build ut-registration-plus
+docker run -it --rm -v $(pwd)/dist:/extension/dist -e BUILD_MODE=build ut-registration-minus
 ```
 
 ### Zip Mode
@@ -43,13 +43,13 @@ docker run -it --rm -v $(pwd)/dist:/extension/dist -e BUILD_MODE=build ut-regist
 This mode builds the extension and creates a zipped package in the `package` folder.
 
 ```
-docker run -it --rm -v $(pwd)/package:/extension/package ut-registration-plus zip
+docker run -it --rm -v $(pwd)/package:/extension/package ut-registration-minus zip
 ```
 
 or
 
 ```
-docker run -it --rm -v $(pwd)/package:/extension/package -e BUILD_MODE=zip ut-registration-plus
+docker run -it --rm -v $(pwd)/package:/extension/package -e BUILD_MODE=zip ut-registration-minus
 ```
 
 ### Development Mode with Hot Module Replacement (HMR)
@@ -59,13 +59,13 @@ This mode runs the extension in development mode with HMR support.
 _Note_: This currently doesn't work.
 
 ```
-docker run -it --rm -v $(pwd)/dist:/extension/dist -v $(pwd)/dist:/extension/dist -p 5173:5173 ut-registration-plus dev
+docker run -it --rm -v $(pwd)/dist:/extension/dist -v $(pwd)/dist:/extension/dist -p 5173:5173 ut-registration-minus dev
 ```
 
 or
 
 ```
-docker run -it --rm -v $(pwd)/dist:/extension/dist -p 5173:5173 -e BUILD_MODE=dev ut-registration-plus
+docker run -it --rm -v $(pwd)/dist:/extension/dist -p 5173:5173 -e BUILD_MODE=dev ut-registration-minus
 ```
 
 ## Accessing the Built Extension

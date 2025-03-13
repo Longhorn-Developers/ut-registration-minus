@@ -17,7 +17,7 @@ interface LinkItem {
 const links = [
     {
         text: 'Rate us on Chrome Web Store',
-        url: 'https://chromewebstore.google.com/detail/ut-registration-plus/hboadpjkoaieogjimneceaahlppnipaa',
+        url: 'https://chromewebstore.google.com/detail/ut-registration-minus/hboadpjkoaieogjimneceaahlppnipaa',
     },
     {
         text: 'Send us Feedback & Ideas',
