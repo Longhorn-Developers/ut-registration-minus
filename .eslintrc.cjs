@@ -72,7 +72,7 @@ module.exports = {
                 ignoreReadBeforeAssign: false,
             },
         ],
-        'no-plus': 'off',
+        'no-plusplus': 'off',
         'no-inner-declarations': 'off',
         'sort-imports': 'off',
         'no-case-declarations': 'off',
