@@ -1,22 +1,22 @@
 # UT Registration Minus
 
-This is a tmp repo for onboarding new LHD members to the UTRP repo.
+This is a tmp repo for onboarding new LHD members to the UTRM repo.
 
-![UTRP Social Preview](images/UTRP_Social-Preview_Prod.svg)
+![UTRM Social Preview](images/UTRM_Social-Preview_Prod.png)
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hboadpjkoaieogjimneceaahlppnipaa)
 ![Downloads](https://img.shields.io/chrome-web-store/d/hboadpjkoaieogjimneceaahlppnipaa)
 ![License](https://img.shields.io/github/license/Longhorn-Developers/UT-Registration-Plus)
 
-**UT Registration Plus (UTRP)** streamlines the process of registering for classes at UT Austin by reducing the chaos of juggling multiple tabs like Rate My Professor, Google Sheets, and the UT Course Schedule. With UTRP, you can simplify class selection and schedule management. We've all been there. 20 tabs of Rate My Professor, Google Spreadsheet, and the UT Course Schedule open and you still don't know what classes to take. 
+**UT Registration Minus (UTRM)** streamlines the process of registering for classes at UT Austin by reducing the chaos of juggling multiple tabs like Rate My Professor, Google Sheets, and the UT Course Schedule. With UTRM, you can simplify class selection and schedule management. We've all been there. 20 tabs of Rate My Professor, Google Spreadsheet, and the UT Course Schedule open and you still don't know what classes to take. 
 
 ## Demo
 
-![UTRP v2 Demo](images/UTRP-Demo.gif)
+![UTRM v2 Demo](images/UTRP-Demo.gif)
 
 ## Features
 
--   **Quick Access to Class Info**: For each class in the UT Course Schedule, UTRP provides a "breakdown" popup with direct links to RateMyProfessor, Course Evaluation Surveys (CES), and past syllabi.
+-   **Quick Access to Class Info**: For each class in the UT Course Schedule, UTRM provides a "breakdown" popup with direct links to RateMyProfessor, Course Evaluation Surveys (CES), and past syllabi.
 -   **Prerequisite & Restriction Highlights**: Displays course descriptions with highlighted details on prerequisites, restrictions, and other important info.
 -   **Grade Distribution Graphs**: View an aggregate and semester-specific graph of grade distributions for each course.
 -   **Saved Courses List**: Easily add courses to a list and view them in the extension popup. Copy unique numbers with a single click.
@@ -64,7 +64,7 @@ For significant changes, it’s recommended to open an issue first to discuss th
 
 ### Getting Started
 
-1. Clone this repository: `git clone https://github.com/Longhorn-Developers/UT-Registration-Plus.git`
+1. Clone this repository: `git clone https://github.com/Longhorn-Developers/UT-Registration-Minus.git`
 2. **Node Version**: This project requires the Node.js version specified in `.nvmrc`. Use [nvm](https://github.com/nvm-sh/nvm) to install and manage the correct version:
     ```bash
     nvm install
@@ -120,7 +120,7 @@ To load the extension manually in Chrome:
 
 ## Bug Reporting
 
-If you encounter bugs or issues, please report them in the [Issues](https://github.com/Longhorn-Developers/UT-Registration-Plus/issues) section, including:
+If you encounter bugs or issues, please report them in the [Issues](https://github.com/Longhorn-Developers/UT-Registration-Minus/issues) section, including:
 
 -   A clear, descriptive title
 -   Steps to reproduce the issue
@@ -201,11 +201,11 @@ Special thanks to the developers and contributors behind these amazing tools and
 -   [UT Registration Planner](https://github.com/doprz/UT-Registration-Planner) by @doprz
 -   [Figma Designs](https://www.figma.com/design/8tsCay2FRqctrdcZ3r9Ahw/UTRP) by @IsaDavRod
 -   [Longhorn Developers](https://github.com/Longhorn-Developers) - established in 2024
--   The UTRP devs, beta testers, and all supporters of the project!
+-   The UTRM devs, beta testers, and all supporters of the project!
 
 ## Activity
 
-![UT-Registration-Plus Activity](https://repobeats.axiom.co/api/embed/47930fa3916ac1b475cd63a05948c449eb5ad502.svg "UT-Registration-Plus Repobeats analytics image")
+![UT-Registration-Minus Activity](https://repobeats.axiom.co/api/embed/47930fa3916ac1b475cd63a05948c449eb5ad502.svg "UT-Registration-Minus Repobeats analytics image")
 
 ## Star History
 

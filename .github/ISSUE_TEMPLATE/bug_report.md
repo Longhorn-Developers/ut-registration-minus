@@ -41,7 +41,7 @@ assignees: ''
 
 **Debug Information**
 
--   UTRP Extension Version: [e.g. 1.2.0]
+-   UTRM Extension Version: [e.g. 1.2.0]
 -   Browser Info: [e.g. Chrome 120.0.0]
 -   OS: [e.g. Windows 11, macOS Sonoma]
 

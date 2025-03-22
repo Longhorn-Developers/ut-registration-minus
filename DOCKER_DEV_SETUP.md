@@ -10,7 +10,7 @@
 1. Clone the repository:
 
     ```
-    git clone https://github.com/Longhorn-Developers/UT-Registration-Plus.git
+    git clone https://github.com/Longhorn-Developers/UT-Registration-Minus.git
     cd UT-Registration-Plus
     ```
 

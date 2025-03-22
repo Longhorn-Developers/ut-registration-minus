@@ -71,7 +71,7 @@ export type ProcessInPersonMeetings = {
 const convertMinutesToIndex = (minutes: number): number => Math.floor((minutes - 420) / 30);
 
 /**
- * Renders the map component for the UTRP (UT Registration Plus) extension.
+ * Renders the map component for the UTRM (UT Registration Minus) extension.
  */
 export default function Map(): JSX.Element {
     const handleChangelogOnClick = useChangelog();
@@ -238,7 +238,7 @@ export default function Map(): JSX.Element {
                 <LargeLogo />
                 <Divider className='mx-2 self-center md:mx-4' size='2.5rem' orientation='vertical' />
                 <Text variant='h1' className='flex-1 text-ut-burntorange'>
-                    UTRP Map
+                    UTRM Map
                 </Text>
                 <div className='hidden flex-row items-center justify-end gap-6 screenshot:hidden lg:flex'>
                     <Button variant='minimal' color='theme-black' onClick={handleChangelogOnClick}>

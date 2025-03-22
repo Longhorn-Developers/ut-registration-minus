@@ -6,7 +6,7 @@ import { createPortal } from 'react-dom';
 import styles from './RecruitmentBanner.module.scss';
 
 const DISCORD_URL = 'https://discord.gg/7pQDBGdmb7';
-const GITHUB_URL = 'https://github.com/Longhorn-Developers/UT-Registration-Plus';
+const GITHUB_URL = 'https://github.com/Longhorn-Developers/UT-Registration-Minus';
 
 const RECRUIT_FROM_DEPARTMENTS = ['C S', 'ECE', 'MIS', 'CSE', 'EE', 'ITD', 'DES'];
 
@@ -37,7 +37,7 @@ export default function RecruitmentBanner(): JSX.Element | null {
     return createPortal(
         <div className={styles.container}>
             <Text color='white'>
-                Interested in helping us develop UT Registration Plus? Check out our{' '}
+                Interested in helping us develop UT Registration Minus? Check out our{' '}
                 <Link color='white' href={DISCORD_URL}>
                     Discord Server
                 </Link>{' '}

@@ -18,7 +18,7 @@ export default function DevMode() {
                     <i>
                         &ldquo;become hackerman, go to{' '}
                         <Link
-                            href='https://github.com/Longhorn-Developers/UT-Registration-Plus'
+                            href='https://github.com/Longhorn-Developers/UT-Registration-Minus'
                             className='link font-serif! italic!'
                         >
                             github

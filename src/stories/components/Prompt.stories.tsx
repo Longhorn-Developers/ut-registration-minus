@@ -83,10 +83,10 @@ export const YouHave10ActiveSchedules: StoryObj<PromptDialogProps> = {
     },
 };
 
-export const WelcomeToUTRPV2: StoryObj<PromptDialogProps> = {
+export const WelcomeToUTRMV2: StoryObj<PromptDialogProps> = {
     render: args => <PromptDialogWithButton {...args} />,
     args: {
-        title: <Text variant='h2'>Welcome to UTRP V2!</Text>,
+        title: <Text variant='h2'>Welcome to UTRM V2!</Text>,
         content: (
             <Text variant='p'>
                 You may have already began planning your Summer or Fall schedule. To migrate your courses into v2.0
