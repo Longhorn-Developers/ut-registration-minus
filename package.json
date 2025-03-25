@@ -9,7 +9,7 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
-        "build:watch": "NODE_ENV='development' vite build --mode development -w",
+        "build:watch": "cross-env NODE_ENV=development vite build --mode development -w",
         "zip": "PROD=true pnpm build && pnpm gulp zipProdBuild",
         "prettier": "prettier src --check",
         "prettier:fix": "prettier src --write",
@@ -105,6 +105,7 @@
         "@vitest/ui": "^2.1.9",
         "chalk": "^5.4.1",
         "chromatic": "^11.26.0",
+        "cross-env": "^7.0.3",
         "cssnano": "^7.0.6",
         "cssnano-preset-advanced": "^7.0.6",
         "dotenv": "^16.4.7",
