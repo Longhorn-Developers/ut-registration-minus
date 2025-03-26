@@ -23,6 +23,7 @@ import { Button } from '../common/Button';
 import { LargeLogo } from '../common/LogoIcon';
 import Text from '../common/Text/Text';
 import CalendarFooter from './CalendarFooter';
+import ExperimentLinks from './ExperimentLinks';
 
 /**
  * Calendar page component
@@ -97,6 +98,8 @@ export default function Calendar(): JSX.Element {
                             <CalendarSchedules />
                             <Divider orientation='horizontal' size='100%' />
                             <ResourceLinks />
+                            <Divider orientation='horizontal' size='100%' />
+                            <ExperimentLinks />
                             <Divider orientation='horizontal' size='100%' />
                             {/* <TeamLinks /> */}
                             <a
