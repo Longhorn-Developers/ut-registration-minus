@@ -74,7 +74,7 @@ export default function ReportIssueMain(): JSX.Element {
     return (
         <div className='w-80 bg-white p-6'>
             <h2 className='mb-4 text-2xl text-ut-burntorange font-bold'>Longhorn Feedback</h2>
-            <p className='mb-4 text-sm text-ut-black'>Help us make UT Registration Plus even better!</p>
+            <p className='mb-4 text-sm text-ut-black'>Help us make UT Registration Minus even better!</p>
 
             <form onSubmit={submitFeedback}>
                 <div className='mb-4'>
