@@ -37,7 +37,7 @@ export default function RecruitmentBanner(): JSX.Element | null {
     return createPortal(
         <div className={styles.container}>
             <Text color='white'>
-                Interested in helping us develop UT Registration Plus? Check out our{' '}
+                Interested in helping us develop UT Registration Minus? Check out our{' '}
                 <Link color='white' href={DISCORD_URL}>
                     Discord Server
                 </Link>{' '}
