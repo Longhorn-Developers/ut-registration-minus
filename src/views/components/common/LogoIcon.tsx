@@ -17,12 +17,13 @@ export function LogoIcon(props: SVGProps<SVGSVGElement>): JSX.Element {
         <svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
             <circle cx='20' cy='20' r='20' fill='#BF5700' />
             <circle cx='20' cy='20' r='15.5' stroke='white' strokeWidth='3' />
-            <rect x='18' y='10' width='4' height='19.5489' fill='white' />
             <rect x='10' y='22' width='4' height='19.5489' transform='rotate(-90 10 22)' fill='white' />
         </svg>
     );
 }
+//<rect x='18' y='10' width='4' height='19.5489' fill='white' />
 
+//<rect x='10' y='22' width='4' height='19.5489' transform='rotate(-90 10 22)' fill='white' />
 /**
  * Renders the small logo.
  *
@@ -36,7 +37,7 @@ export function SmallLogo({ className }: LogoIconProps): JSX.Element {
             <div className='mt-1 flex flex-col text-lg font-medium leading-[1em]'>
                 <p className='text-nowrap text-ut-burntorange'>UT Registration</p>
                 <p className='text-ut-burntorange'>
-                    Plus{' '}
+                    Minus{' '}
                     <span className='text-xs'>
                         {import.meta.env.VITE_BETA_BUILD ? `(${import.meta.env.VITE_PACKAGE_VERSION})` : ''}
                     </span>
@@ -59,7 +60,7 @@ export function LargeLogo({ className }: LogoIconProps): JSX.Element {
             <div className='mt-1 flex flex-col text-[1.35rem] font-medium leading-[1em] screenshot:flex'>
                 <p className='text-nowrap text-ut-burntorange'>UT Registration</p>
                 <p className='text-ut-burntorange'>
-                    Plus{' '}
+                    Minus{' '}
                     <span className='text-sm'>
                         {import.meta.env.VITE_BETA_BUILD ? `(${import.meta.env.VITE_PACKAGE_VERSION})` : ''}
                     </span>
