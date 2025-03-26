@@ -512,7 +512,7 @@ export default function Settings(): JSX.Element {
                         <div className='flex items-center justify-between'>
                             <div className='max-w-xs'>
                                 <Text variant='h4' className='text-ut-burntorange font-semibold'>
-                                    UTRP Map
+                                    UTRM Map
                                 </Text>
                                 <span className='mx-2 border border-ut-burntorange rounded px-2 py-0.5 text-xs text-ut-burntorange font-medium'>
                                     BETA
@@ -530,7 +530,7 @@ export default function Settings(): JSX.Element {
                                     background.openNewTab({ url: mapPageUrl });
                                 }}
                             >
-                                Try UTRP Map
+                                Try UTRM Map
                             </Button>
                         </div>
 
@@ -594,7 +594,7 @@ export default function Settings(): JSX.Element {
                                     <p className='text-sm text-gray-600'>{admin.role}</p>
                                     {showGitHubStats && githubStats && (
                                         <div className='mt-2'>
-                                            <p className='text-xs text-gray-500'>GitHub Stats (UTRP repo):</p>
+                                            <p className='text-xs text-gray-500'>GitHub Stats (UTRM repo):</p>
                                             {includeMergedPRs && (
                                                 <p className='text-xs'>
                                                     Merged PRS:{' '}
@@ -617,7 +617,7 @@ export default function Settings(): JSX.Element {
                         </div>
                     </section>
                     <section className='my-8'>
-                        <h2 className='mb-4 text-xl text-ut-black font-semibold'>UTRP CONTRIBUTORS</h2>
+                        <h2 className='mb-4 text-xl text-ut-black font-semibold'>UTRM CONTRIBUTORS</h2>
                         <div className='grid grid-cols-2 gap-4 2xl:grid-cols-4 md:grid-cols-3 xl:grid-cols-3'>
                             {LONGHORN_DEVELOPERS_SWE.sort(
                                 (a, b) =>
@@ -640,7 +640,7 @@ export default function Settings(): JSX.Element {
                                     <p className='text-sm text-gray-600'>{swe.role}</p>
                                     {showGitHubStats && githubStats && (
                                         <div className='mt-2'>
-                                            <p className='text-xs text-gray-500'>GitHub Stats (UTRP repo):</p>
+                                            <p className='text-xs text-gray-500'>GitHub Stats (UTRM repo):</p>
                                             {includeMergedPRs && (
                                                 <p className='text-xs'>
                                                     Merged PRS:{' '}
@@ -688,7 +688,7 @@ export default function Settings(): JSX.Element {
                                             <p className='text-sm text-gray-600'>Contributor</p>
                                             {showGitHubStats && (
                                                 <div className='mt-2'>
-                                                    <p className='text-xs text-gray-500'>GitHub Stats (UTRP repo):</p>
+                                                    <p className='text-xs text-gray-500'>GitHub Stats (UTRM repo):</p>
                                                     {includeMergedPRs && (
                                                         <p className='text-xs'>
                                                             Merged PRs:{' '}

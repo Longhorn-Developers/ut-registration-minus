@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 
 /**
- * InjectedButton component renders a button that adds courses to UTRP from official MyUT calendar
+ * InjectedButton component renders a button that adds courses to UTRM from official MyUT calendar
  * and adds the courses to the active schedule.
  *
  * @returns The rendered button component or null if the container is not found.

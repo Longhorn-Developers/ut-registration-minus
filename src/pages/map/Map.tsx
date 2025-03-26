@@ -4,7 +4,7 @@ import Map from '@views/components/map/Map';
 import React from 'react';
 
 /**
- * Renders the map page for the UTRP (UT Registration Plus) extension.
+ * Renders the map page for the UTRM (UT Registration Minus) extension.
  */
 export default function MapPage() {
     return (
