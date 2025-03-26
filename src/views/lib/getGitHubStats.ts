@@ -36,7 +36,7 @@ type FetchResult<T> = {
 // Constants
 const CACHE_TTL = 1 * 60 * 60 * 1000; // 1 hour in milliseconds
 const REPO_OWNER = 'Longhorn-Developers';
-const REPO_NAME = 'UT-Registration-Plus';
+const REPO_NAME = 'UT-Registration-Minus';
 const CONTRIBUTORS_API_ROUTE = `/repos/${REPO_OWNER}/${REPO_NAME}/stats/contributors`;
 
 export const LONGHORN_DEVELOPERS_ADMINS = [

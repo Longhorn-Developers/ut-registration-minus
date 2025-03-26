@@ -6,7 +6,7 @@ import useKC_DABR_WASM from 'kc-dabr-wasm';
 import React from 'react';
 
 /**
- * Renders the settings page for the UTRP (UT Registration Plus) extension.
+ * Renders the settings page for the UTRP (UT Registration Minus) extension.
  * Allows customization options and displays credits for the development team.
  *
  * @returns The JSX element representing the settings page.

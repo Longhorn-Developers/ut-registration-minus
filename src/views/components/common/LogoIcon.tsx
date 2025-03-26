@@ -36,7 +36,7 @@ export function SmallLogo({ className }: LogoIconProps): JSX.Element {
             <div className='mt-1 flex flex-col text-lg font-medium leading-[1em]'>
                 <p className='text-nowrap text-ut-burntorange'>UT Registration</p>
                 <p className='text-ut-burntorange'>
-                    Plus{' '}
+                    Minus{' '}
                     <span className='text-xs'>
                         {import.meta.env.VITE_BETA_BUILD ? `(${import.meta.env.VITE_PACKAGE_VERSION})` : ''}
                     </span>
@@ -59,7 +59,7 @@ export function LargeLogo({ className }: LogoIconProps): JSX.Element {
             <div className='mt-1 flex flex-col text-[1.35rem] font-medium leading-[1em] screenshot:flex'>
                 <p className='text-nowrap text-ut-burntorange'>UT Registration</p>
                 <p className='text-ut-burntorange'>
-                    Plus{' '}
+                    Minus{' '}
                     <span className='text-sm'>
                         {import.meta.env.VITE_BETA_BUILD ? `(${import.meta.env.VITE_PACKAGE_VERSION})` : ''}
                     </span>
