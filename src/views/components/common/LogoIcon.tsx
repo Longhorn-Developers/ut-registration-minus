@@ -21,9 +21,6 @@ export function LogoIcon(props: SVGProps<SVGSVGElement>): JSX.Element {
         </svg>
     );
 }
-//<rect x='18' y='10' width='4' height='19.5489' fill='white' />
-
-//<rect x='10' y='22' width='4' height='19.5489' transform='rotate(-90 10 22)' fill='white' />
 /**
  * Renders the small logo.
  *
