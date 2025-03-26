@@ -70,7 +70,7 @@ export default function CourseCatalogMain({ support }: Props): JSX.Element | nul
         <ExtensionRoot>
             <NewSearchLink />
             <RecruitmentBanner />
-            <TableHead>Plus</TableHead>
+            <TableHead>Minus</TableHead>
             {rows.map(
                 row =>
                     row.course && (
