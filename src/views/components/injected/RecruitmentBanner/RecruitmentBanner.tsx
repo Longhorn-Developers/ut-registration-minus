@@ -23,7 +23,7 @@ export default function RecruitmentBanner(): JSX.Element | null {
             return;
         }
         const container = document.createElement('div');
-        container.setAttribute('id', 'ut-registration-plus-table-head');
+        container.setAttribute('id', 'ut-registration-minus-table-head');
 
         const table = document.querySelector('table');
         table!.before(container);

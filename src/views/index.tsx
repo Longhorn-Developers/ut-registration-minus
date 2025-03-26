@@ -27,7 +27,7 @@ if (support === SiteSupport.MY_CALENDAR) {
 }
 
 if (support === SiteSupport.COURSE_CATALOG_DETAILS || support === SiteSupport.COURSE_CATALOG_LIST) {
-    const shadowDom = createShadowDOM('ut-registration-plus-container');
+    const shadowDom = createShadowDOM('ut-registration-minus-container');
     render(<CourseCatalogMain support={support} />, shadowDom.shadowRoot);
     shadowDom.addStyle('static/css/content.css');
 }
