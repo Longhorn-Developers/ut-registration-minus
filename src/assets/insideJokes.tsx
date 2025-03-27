@@ -115,6 +115,9 @@ const splashText: string[] = [
     `It's ${new Date().toLocaleString('en-US', { month: 'long', day: 'numeric' })} and OU still sucks`,
     'As seen on TV!	',
     "Should you major in Compsci? well, here's a better question. do you wanna have a bad time?",
+    "What's the speed limit on Speedway? Faster than a lost freshman, but slower than a scooter with no regard for human life.",
+    "PCL at 2 AM: less 'quiet zone' and more 'group therapy session for procrastinators'",
+    'Finding parking on campus is like finding a class without an 8am discussion section - theoretically possible but rarely observed in nature.',
 ];
 
 export default splashText;
