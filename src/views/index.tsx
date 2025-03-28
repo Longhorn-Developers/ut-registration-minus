@@ -10,7 +10,7 @@ const support = getSiteSupport(window.location.href);
 console.log('support:', support);
 
 if (!support) {
-    throw new Error('UT Registration Plus does not support this page, even though it should...');
+    throw new Error('UT Registration Minus does not support this page, even though it should...');
 }
 
 // if we are in an iframe, throw an error
