@@ -6,9 +6,9 @@ This is a tmp repo for onboarding new LHD members to the UTRP repo.
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hboadpjkoaieogjimneceaahlppnipaa)
 ![Downloads](https://img.shields.io/chrome-web-store/d/hboadpjkoaieogjimneceaahlppnipaa)
-![License](https://img.shields.io/github/license/Longhorn-Developers/UT-Registration-Plus)
+![License](https://img.shields.io/github/license/Longhorn-Developers/ut-registration-minus)
 
-**UT Registration Plus (UTRP)** streamlines the process of registering for classes at UT Austin by reducing the chaos of juggling multiple tabs like Rate My Professor, Google Sheets, and the UT Course Schedule. With UTRP, you can simplify class selection and schedule management. We've all been there. 20 tabs of Rate My Professor, Google Spreadsheet, and the UT Course Schedule open and you still don't know what classes to take. 
+**UT Registration Minus (UTRP)** streamlines the process of registering for classes at UT Austin by reducing the chaos of juggling multiple tabs like Rate My Professor, Google Sheets, and the UT Course Schedule. With UTRP, you can simplify class selection and schedule management. We've all been there. 20 tabs of Rate My Professor, Google Spreadsheet, and the UT Course Schedule open and you still don't know what classes to take. 
 
 ## Demo
 
@@ -64,7 +64,7 @@ For significant changes, it’s recommended to open an issue first to discuss th
 
 ### Getting Started
 
-1. Clone this repository: `git clone https://github.com/Longhorn-Developers/UT-Registration-Plus.git`
+1. Clone this repository: `git clone https://github.com/Longhorn-Developers/ut-registration-minus.git`
 2. **Node Version**: This project requires the Node.js version specified in `.nvmrc`. Use [nvm](https://github.com/nvm-sh/nvm) to install and manage the correct version:
     ```bash
     nvm install
@@ -120,7 +120,7 @@ To load the extension manually in Chrome:
 
 ## Bug Reporting
 
-If you encounter bugs or issues, please report them in the [Issues](https://github.com/Longhorn-Developers/UT-Registration-Plus/issues) section, including:
+If you encounter bugs or issues, please report them in the [Issues](https://github.com/Longhorn-Developers/ut-registration-minus/issues) section, including:
 
 -   A clear, descriptive title
 -   Steps to reproduce the issue
@@ -197,7 +197,7 @@ Special thanks to the developers and contributors behind these amazing tools and
 -   [chrome-extension-toolkit](https://github.com/sghsri/chrome-extension-toolkit)
 -   [UT_Grade_Parser](https://github.com/doprz/UT_Grade_Parser)
 -   [eslint-plugin-import-essentials](https://github.com/doprz/eslint-plugin-import-essentials)
--   [UT Registration Plus v1.2.2.7](https://github.com/Longhorn-Developers/UT-Registration-Plus/tree/legacy) by @sghsri
+-   [UT Registration Minus v1.2.2.7](https://github.com/Longhorn-Developers/UT-Registration-Plus/tree/legacy) by @sghsri
 -   [UT Registration Planner](https://github.com/doprz/UT-Registration-Planner) by @doprz
 -   [Figma Designs](https://www.figma.com/design/8tsCay2FRqctrdcZ3r9Ahw/UTRP) by @IsaDavRod
 -   [Longhorn Developers](https://github.com/Longhorn-Developers) - established in 2024
@@ -205,7 +205,7 @@ Special thanks to the developers and contributors behind these amazing tools and
 
 ## Activity
 
-![UT-Registration-Plus Activity](https://repobeats.axiom.co/api/embed/47930fa3916ac1b475cd63a05948c449eb5ad502.svg "UT-Registration-Plus Repobeats analytics image")
+![UT-Registration-Minus Activity](https://repobeats.axiom.co/api/embed/47930fa3916ac1b475cd63a05948c449eb5ad502.svg "UT-Registration-Minus Repobeats analytics image")
 
 ## Star History
 
